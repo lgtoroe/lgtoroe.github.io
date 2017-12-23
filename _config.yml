@@ -1,23 +1,23 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Brandon Joffe"
-description: "Jack's blog,use Jekyll and github pages."
+title: "Luis Toro Encina"
+description: "Website based on Jack's blog,use Jekyll and github pages."
 keywords: "Brandon,blog,Jekyll,github,gh-pages"
 baseurl: "/"
-url: "brandonjoffe.gitHub.io"
+url: "lgtoroe.gitHub.io"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Brandon'
-  first_name: 'Brandon'
-  last_name: 'Joffe'
-  email: 'bjjoffe@gmail.com'
-  facebook_username: 'brandon.joffe'
-  github_username: 'BrandonJoffe'
-  head_img: 'static/img/landing/brandon.jpeg'
-  desc: 'I am an electrical and computer engineer who is self-motivated and passionate about learning. I love to engage with people and through all of my experiences I have gained a thirst for knowledge, a constant desire for self-improvement, and the drive to be a leader.' 
+  name: 'Luis'
+  first_name: 'Luis'
+  last_name: 'Toro'
+  email: 'lgtoroe@gmail.com'
+  facebook_username: 'luis.toro.encina'
+  github_username: 'lgtoroe'
+  head_img: 'static/img/landing/luis.jpg'
+  desc: 'I am an electrical and electronic engineer who is self-motivated and passionate about learning, i have dedicated my professional life to computer engineering with high knowledge in Software and Hardware in positions such as Datacenter Operator, SAP Administrator, Backup Engineer and last year as DevOPS. . I love to engage with people and through all of my experiences I have gained a thirst for knowledge, a constant desire for self-improvement, and the drive to be a leader.' 
 # sections
 sections:
   - id: 'about-me'
@@ -26,23 +26,23 @@ sections:
     tpl: 'about.html'
     css: ''
 
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Career'
-    tpl: 'career.html'
-    css: 'timeline'
+  # - id: 'career'
+  #   i18n: 'nav.career'
+  #   name: 'Career'
+  #   tpl: 'career.html'
+  #   css: 'timeline'
 
-  - id: 'skills'
-    i18n: 'nav.skills'
-    name: 'Skills'
-    tpl: 'skills.html'
-    css: 'team'
+  # - id: 'skills'
+  #   i18n: 'nav.skills'
+  #   name: 'Skills'
+  #   tpl: 'skills.html'
+  #   css: 'team'
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
+  # - id: 'projects'
+  #   i18n: 'nav.projects'
+  #   name: 'Projects'
+  #   tpl: 'projects.html'
+  #   css: 'project'
 
   - id: 'links'
     tpl: 'links.html'
@@ -50,13 +50,13 @@ sections:
 
 # localization
 languages:
-  - locale: 'en'
-    flag: 'static/img/flags/United-States.png'
-  - locale: 'zh'
-    flag: 'static/img/flags/China.png'
+  - locale: 'es'
+    flag: 'static/img/flags/Spain.png'
+  - locale: 'cl'
+    flag: 'static/img/flags/Chile.png'
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: 'http://lgtoroe.github.io/static/img/blog'
 
 # donate
 donate:
@@ -68,12 +68,12 @@ changyan:
   # appid: cysfY7ULn
   # conf: prod_861928934cecb7a18e15bedaed9dae29
 disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  # name: jalpc
+  # public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # share
 bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
+  # uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
 # baidu analytics
 ba:
@@ -81,11 +81,11 @@ ba:
 
 # google analytics
 ga:
-  id: UA-73784599-1
+  # id: UA-73784599-1
 
 # growingIO
 gio:
-  id: a49d4901c7853da9
+  # id: a49d4901c7853da9
 
 # Build settings
 encoding: "utf-8"
